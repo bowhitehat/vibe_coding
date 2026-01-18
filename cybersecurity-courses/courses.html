@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danh sách khóa học An Toàn Thông Tin">
+  <title>Khóa Học | CyberSecurity Courses</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ========== NAVIGATION ========== -->
+  <nav>
+    <div class="container">
+      <div class="logo">
+        🛡️ Cyber<span>Security</span>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="menu-toggle">☰</button>
+
+      <!-- Navigation Links -->
+      <ul>
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="courses.html" class="active">Khóa Học</a></li>
+        <li><a href="instructors.html">Giảng Viên</a></li>
+        <li><a href="contact.html">Liên Hệ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section class="course-header">
+    <div class="container">
+      <!-- Page Title -->
+      <h1>Danh Sách Khóa Học</h1>
+      <p>Chọn từ các khóa học chất lượng cao được thiết kế bởi các chuyên gia bảo mật</p>
+    </div>
+  </section>
+
+  <!-- ========== COURSES SECTION ========== -->
+  <section>
+    <div class="container">
+      <!-- Filter Buttons -->
+      <div class="courses-filters">
+        <!-- Show all courses -->
+        <button class="filter-btn active" data-filter="all">Tất Cả</button>
+        <!-- Beginner level courses -->
+        <button class="filter-btn" data-filter="beginner">Cơ Bản</button>
+        <!-- Intermediate level courses -->
+        <button class="filter-btn" data-filter="intermediate">Trung Bình</button>
+        <!-- Advanced level courses -->
+        <button class="filter-btn" data-filter="advanced">Nâng Cao</button>
+      </div>
+
+      <!-- Courses Grid Container -->
+      <!-- JavaScript will populate this with course cards -->
+      <div id="courses-grid" class="grid">
+        <!-- Courses will be loaded here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="alternate">
+    <div class="container text-center">
+      <!-- Section Message -->
+      <h2>Không tìm thấy khóa học bạn cần?</h2>
+      <p style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        Hãy liên hệ với chúng tôi để được tư vấn khóa học phù hợp nhất cho nhu cầu của bạn
+      </p>
+
+      <!-- Contact Button -->
+      <a href="contact.html" class="btn btn-secondary">Liên Hệ Chúng Tôi</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <!-- About Section -->
+        <div class="footer-section">
+          <h4>Về Chúng Tôi</h4>
+          <p>Platform học tập Cybersecurity hàng đầu tại Việt Nam. Cung cấp các khóa học chất lượng cao từ các chuyên gia hàng đầu.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h4>Liên Kết Nhanh</h4>
+          <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="courses.html">Khóa Học</a></li>
+            <li><a href="instructors.html">Giảng Viên</a></li>
+            <li><a href="contact.html">Liên Hệ</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="footer-section">
+          <h4>Tài Nguyên</h4>
+          <ul>
+            <li><a href="#">Blog Bảo Mật</a></li>
+            <li><a href="#">Tài Liệu</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Điều Khoản Sử Dụng</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-section">
+          <h4>Liên Hệ</h4>
+          <p>📧 Email: info@cybersecurity.vn</p>
+          <p>📞 Điện thoại: +84 (0) 123-456-789</p>
+          <p>📍 Địa chỉ: Hà Nội, Việt Nam</p>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#" title="Facebook">f</a>
+            <a href="#" title="Twitter">𝕏</a>
+            <a href="#" title="GitHub">G</a>
+            <a href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 CyberSecurity Courses. All rights reserved. | Designed by Senior Full-Stack Developer</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Load JavaScript Files -->
+  <script src="js/courses-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
